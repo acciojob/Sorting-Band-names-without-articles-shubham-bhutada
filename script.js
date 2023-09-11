@@ -9,7 +9,7 @@ let arr = [];
 // }
 let regex = /\bthe \b|\ba \b|\nan \b/gi;
 for (let i = 0; i < touristSpots.length; i++) {
-  touristSpots[i] = touristSpots[i].replace(regex, "");
+  arr[i] = touristSpots[i].replace(regex, "");
 }
 touristSpots.sort();
 let map = {
